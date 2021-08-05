@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(237, 228, 223);
+}
+.banner{
+    text-align: center; 
+    font-family: "Futura", sans-serif; 
+    font-size: 1.8em; 
+    padding: 80px 0 80px 0; 
+    margin-top: -10px; 
+    margin-left: -10px; 
+    margin-right: -10px; 
+    background-color: rgb(255, 180, 123);
+}
+.banner h1{
+    margin-top: 230px; 
+    margin-bottom: 30px; 
+    text-align: center; 
+}
+#selfie{
+    clip-path: circle();
+    margin-top: -120px; 
+}
+.paragraphs{
+    font-family: "Euphemia UCAS", sans-serif; 
+    font-weight: lighter; 
+    font-size: 18px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin-top: 45px;  
+    text-align: justify; 
+}
+hr{
+    background-color: black; 
+    opacity: 0.4; 
+}
+#email{
+    font-family: "Euphemia UCAS", sans-serif; 
+    font-weight: bold; 
+    font-size: 11px; 
+    width: 97%;
+    text-align: center; 
+    margin-bottom: 30px; 
+    margin-top: -10px; 
+}
+#passion-button{
+    font-family: "Futura", sans-serif; 
+    background-color: rgb(217, 208, 202);
+    font-weight: bold; 
+    float: right; 
+    margin-top: -480px;  
+}
+#resume-button{
+    font-family: "Futura", sans-serif; 
+    background-color: rgb(217, 208, 202);
+    font-weight: bold; 
+    float: right; 
+    margin-top: -480px; 
+    margin-right: 130px; 
+}
