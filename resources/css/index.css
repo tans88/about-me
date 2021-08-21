@@ -1,0 +1,163 @@
+
+body{
+    background-color: rgb(237, 228, 223);
+    min-width: 200px; 
+    max-width: 2000px; 
+    min-height: 200px; 
+    max-height: 2000px; 
+}
+
+.banner{
+    text-align: center; 
+    font-family: "Futura", sans-serif; 
+    font-size: 1.8em; 
+    padding: 80px 0 80px 0; 
+    margin-top: -10px; 
+    margin-left: -10px; 
+    margin-right: -10px; 
+    background-color: rgb(255, 180, 123);
+}
+
+.banner h1{
+    margin-top: 230px; 
+    margin-bottom: 30px; 
+    text-align: center; 
+}
+
+nav{ 
+    float: right; 
+    position: relative; 
+    top: -30rem; 
+}
+
+#h-button{
+    font-family: "Futura", sans-serif; 
+    background-color:rgb(237, 228, 223);  
+    font-weight: bold; 
+}
+#p-button{
+    font-family: "Futura", sans-serif; 
+    background-color:rgb(237, 228, 223); 
+    font-weight: bold; 
+}
+#r-button{
+    font-family: "Futura", sans-serif; 
+    background-color:rgb(237, 228, 223); 
+    font-weight: bold; 
+}
+
+#selfie{
+    border-radius: 100%; 
+    height: 17.5em; 
+    width: 19em; 
+    margin-top: -120px;
+}
+
+.paragraphs{
+    font-family: "Euphemia UCAS", sans-serif; 
+    font-weight: lighter; 
+    font-size: 18px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin-top: 45px;  
+    text-align: justify; 
+}
+
+hr{
+    background-color: black; 
+    opacity: 0.4; 
+}
+
+#email{
+    font-family: "Euphemia UCAS", sans-serif; 
+    font-size: 11px; 
+    width: 97%;
+    text-align: center; 
+    margin-bottom: 30px; 
+    margin-top: -10px; 
+    font-weight: bold !important; 
+}
+
+
+@media only screen and (min-width: 1150px) and (max-width: 1200px){
+    #selfie{
+        height: 16.5em; 
+        width: 17.5em; 
+    }
+    .banner{
+        font-size: 1.6em;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1100px){
+    #selfie{
+        height: 15em;
+        width: 16em; 
+    }
+    .banner{
+        font-size: 1.5em; 
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 900px){
+    #selfie{
+        height: 13em; 
+        width: 14em; 
+        margin-top: -7em; 
+    }
+    .banner h1{
+        font-size: 1.4em; 
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 800px){
+    #selfie{
+        height: 12.5rem; 
+        width: 13.5em; 
+    }
+    .banner{
+        font-size: 1.3em; 
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 750px){
+    #selfie{
+        height: 11em; 
+        width: 12em; 
+        margin-top: -7em; 
+    }
+    .banner{
+        font-size: 1.2em; 
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 650px){
+    #selfie{
+        height: 9em; 
+        width: 10em; 
+        margin-top: -7em; 
+    }
+    .banner{
+        font-size: 1em; 
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 630px){
+    #selfie{
+        height: 7.5em; 
+        width: 8em; 
+        margin-top: -6em; 
+    }
+    .banner{
+        font-size: 0.8em; 
+    }
+}
+@media only screen and (min-width: 150px) and (max-width: 400px){
+    #selfie{
+        height: 5em;
+        width: 5.5em; 
+        margin-top: -3.5em;
+    }
+    .banner{
+        font-size: 0.6em; 
+    }
+}
+
+
+
+
+
