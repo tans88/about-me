@@ -1,0 +1,280 @@
+
+body{
+    background-color: rgb(237, 228, 223);
+    min-width: 200px; 
+    max-width: 3000px; 
+    min-height: 200px; 
+    max-height: 3000px; 
+}
+
+.banner{
+    text-align: center; 
+    font-family: "Futura", sans-serif; 
+    font-size: 1.8em; 
+    padding: 80px 0 80px 0; 
+    margin-top: -10px; 
+    margin-left: -10px; 
+    margin-right: -10px; 
+    background-color: rgb(255, 180, 123);
+}
+.banner h1{
+    margin-top: 230px; 
+    margin-bottom: 30px; 
+    text-align: center; 
+}
+#selfie{
+    border-radius: 18em;
+    height: 18em; 
+    width: 19em; 
+    margin-top: -120px;
+}
+
+.paragraphs{
+    font-family: "Euphemia UCAS", sans-serif; 
+    font-weight: lighter; 
+    font-size: 15px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin-top: 45px;  
+    text-align: justify; 
+}
+
+hr{
+    background-color: black; 
+    opacity: 0.4; 
+}
+
+#email{
+    font-family: "Euphemia UCAS", sans-serif; 
+    font-size: 11px; 
+    width: 97%;
+    text-align: center; 
+    margin-bottom: 30px; 
+    margin-top: -10px; 
+    font-weight: bold !important; 
+}
+@media only screen and (min-width: 1200px) and (max-width: 1500px){
+    .banner h1{
+        margin-top: 230px; 
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 65px; 
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 20px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 30px;  
+        text-align: justify; 
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .banner h1{
+        margin-top: 240px; 
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 55px; 
+    }
+    #selfie{
+        border-radius: 15em;
+        height: 15em; 
+        width: 16em; 
+        margin-top: -120px;
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 20px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 30px;  
+        text-align: justify; 
+    }
+    
+}
+@media only screen and (min-width: 700px) and (max-width: 900px){     /* 175% zoom */ 
+    .banner h1{
+        margin-top: 240px; 
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 40px;
+    }
+    #selfie{
+        border-radius: 12em;
+        height: 12em; 
+        width: 13em; 
+        margin-top: -105px;
+    } 
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 14px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 30px;  
+        text-align: justify; 
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+    .paragraphs{
+        font-size: 18px; 
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px){        /* 200% zoom */
+    .banner h1{
+        margin-top: 150px;
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 35px; 
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 14px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 47px;  
+        text-align: justify; 
+    }
+    #selfie{
+        border-radius: 13em;
+        height: 9em; 
+        width: 10em; 
+        margin-top: -70px;
+    }
+
+}
+@media only screen and (min-width: 500px) and (max-width: 600px){       /* 250% zoom */
+    .banner h1{
+        margin-top: 200px;
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 25px; 
+    }
+    #selfie{
+        border-radius: 12em;
+        height: 8em; 
+        width: 9em; 
+        margin-top: -80px;
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 13px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 40px;  
+        text-align: justify; 
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px){       /* 300% zoom */
+    .banner h1{
+        margin-top: 120px; 
+        margin-left: 5px;
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 28px; 
+    }
+    .banner{
+        text-align: center; 
+        font-family: "Futura", sans-serif; 
+        font-size: 1.8em; 
+        padding: 80px 0 80px 0; 
+        margin-top: -15px; /* this makes the banner smaller, make the negative larger (ex. -20 -> -30) */
+        margin-left: -10px; 
+        margin-right: -10px; 
+        background-color: rgb(255, 180, 123);
+    }
+    #selfie{
+        border-radius: 11em;
+        height: 7em; 
+        width: 7.5em; 
+        margin-top: -50px;
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 9px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 110px;  
+        text-align: justify; 
+    }
+    #email{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-size: 8px; 
+        width: 97%;
+        text-align: center; 
+        margin-bottom: 10px; 
+        margin-top: -10px; 
+        font-weight: bold !important; 
+    }
+
+}
+@media only screen and (min-width: 200px) and (max-width: 350px){        /* 400% zoom */ 
+    .banner h1{
+        margin-top: 150px; 
+        margin-left: 5px;
+        margin-bottom: 30px; 
+        text-align: center; 
+        font-size: 20px; 
+    }
+    #selfie{
+        border-radius: 9em;
+        height: 5em; 
+        width: 5.5em; 
+        margin-top: -30px;
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 8px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 80px;  
+        text-align: justify; 
+    }
+    #email{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-size: 7px; 
+        width: 97%;
+        text-align: center; 
+        margin-bottom: 10px; 
+        margin-top: -10px; 
+        font-weight: bold !important;
+    }
+@media only screen and (min-width: 100px) and (max-width: 300px){        /* 500% zoom */
+    .banner h1{
+        margin-top: 190px; 
+        margin-bottom: 5px; 
+        text-align: center; 
+        font-size: 15px; 
+    }
+    .paragraphs{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-weight: lighter; 
+        font-size: 6px; 
+        padding-left: 15px; 
+        padding-right: 15px; 
+        margin-top: 100px;  
+        text-align: justify; 
+    }
+    #selfie{
+        border-radius: 8em;
+        height: 4em; 
+        width: 4.5em; 
+        margin-top: -30px;
+    }
+    #email{
+        font-family: "Euphemia UCAS", sans-serif; 
+        font-size: 7px; 
+        width: 97%;
+        text-align: center; 
+        margin-bottom: 10px; 
+        margin-top: -10px; 
+        font-weight: bold !important; 
+    }
+}
+}
